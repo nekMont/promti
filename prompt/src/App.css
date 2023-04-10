@@ -4,3 +4,48 @@
   padding: 10px; /* add padding to make the button more visible */
   font-size: 16px; /* increase the font size for better visibility */
 }
+
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* set container height to 100% of viewport height */
+}
+
+input[type="text"] {
+  width: 80%;
+  height: 40px;
+  padding: 8px;
+  margin: 16px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  margin: 16px 0;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+
+.input-box {
+  width: 60%; /* set the width of the input box to 60% of the container width */
+  padding: 10px; /* add padding to the input box */
+  margin-right: 10px; /* add right margin to the input box to separate it from the button */
+}
+
+.submit-button {
+  width: 30%; /* set the width of the button to 30% of the container width */
+  padding: 10px; /* add padding to the button */
+}
