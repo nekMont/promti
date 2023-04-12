@@ -27,6 +27,12 @@ const App = () => {
   }
 
   return (
+
+    
+    <div className='backDiv'> 
+    <div className='prompti-logo'> 
+    Promti
+    </div>
     <div className='button'> 
       <div className='input-container'>
         <input className='input-box' value={value} onChange={(e) => setValue(e.target.value)}/> 
@@ -36,9 +42,11 @@ const App = () => {
       </div>
       {message && (
     <div>
-      <p> {message.content}</p>
+      <p className='mesResponse'> {message.content}</p>
     </div>
 )}
+    </div>
+    
     </div>
   );
 }

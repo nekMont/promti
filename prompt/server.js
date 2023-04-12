@@ -6,7 +6,7 @@ const cors = require('cors')
 const app = express()
 
 //since we are working with json 
-const API_KEY = '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'
+const API_KEY = ''
 
 app.use(express.json())
 app.use(cors())
