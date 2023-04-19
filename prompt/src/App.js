@@ -33,18 +33,20 @@ const App = () => {
     <div className='prompti-logo'> 
     Promti
     </div>
-    <div className='button'> 
-      <div className='input-container'>
+    <div className='base'> 
+      <div>
         <input className='input-box' value={value} onChange={(e) => setValue(e.target.value)}/> 
         <button className='submit-button' id="submit" onClick={getMessages}>
           submit
         </button>
       </div>
+      <div className='saveChat'> 
       {message && (
     <div>
       <p className='mesResponse'> {message.content}</p>
     </div>
 )}
+    </div>
     </div>
     
     </div>
